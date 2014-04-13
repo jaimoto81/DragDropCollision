@@ -24,6 +24,11 @@
 		6AD70B6418F9E7E600CA23D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AD70B3F18F9E7E600CA23D8 /* UIKit.framework */; };
 		6AD70B6C18F9E7E600CA23D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B6A18F9E7E600CA23D8 /* InfoPlist.strings */; };
 		6AD70B6E18F9E7E600CA23D8 /* DragDropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD70B6D18F9E7E600CA23D8 /* DragDropTests.m */; };
+		6AD70B7C18F9E86E00CA23D8 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B7718F9E86E00CA23D8 /* bird.png */; };
+		6AD70B7D18F9E86E00CA23D8 /* blue-shooting-stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B7818F9E86E00CA23D8 /* blue-shooting-stars.png */; };
+		6AD70B7E18F9E86E00CA23D8 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B7918F9E86E00CA23D8 /* cat.png */; };
+		6AD70B7F18F9E86E00CA23D8 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B7A18F9E86E00CA23D8 /* dog.png */; };
+		6AD70B8018F9E86E00CA23D8 /* turtle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD70B7B18F9E86E00CA23D8 /* turtle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,11 @@
 		6AD70B6918F9E7E600CA23D8 /* DragDropTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragDropTests-Info.plist"; sourceTree = "<group>"; };
 		6AD70B6B18F9E7E600CA23D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6AD70B6D18F9E7E600CA23D8 /* DragDropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragDropTests.m; sourceTree = "<group>"; };
+		6AD70B7718F9E86E00CA23D8 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		6AD70B7818F9E86E00CA23D8 /* blue-shooting-stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-shooting-stars.png"; sourceTree = "<group>"; };
+		6AD70B7918F9E86E00CA23D8 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		6AD70B7A18F9E86E00CA23D8 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		6AD70B7B18F9E86E00CA23D8 /* turtle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +131,11 @@
 		6AD70B4318F9E7E600CA23D8 /* DragDrop */ = {
 			isa = PBXGroup;
 			children = (
+				6AD70B7718F9E86E00CA23D8 /* bird.png */,
+				6AD70B7818F9E86E00CA23D8 /* blue-shooting-stars.png */,
+				6AD70B7918F9E86E00CA23D8 /* cat.png */,
+				6AD70B7A18F9E86E00CA23D8 /* dog.png */,
+				6AD70B7B18F9E86E00CA23D8 /* turtle.png */,
 				6AD70B4C18F9E7E600CA23D8 /* AppDelegate.h */,
 				6AD70B4D18F9E7E600CA23D8 /* AppDelegate.m */,
 				6AD70B4F18F9E7E600CA23D8 /* Main.storyboard */,
@@ -241,8 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AD70B4818F9E7E600CA23D8 /* InfoPlist.strings in Resources */,
+				6AD70B7C18F9E86E00CA23D8 /* bird.png in Resources */,
+				6AD70B7D18F9E86E00CA23D8 /* blue-shooting-stars.png in Resources */,
 				6AD70B5B18F9E7E600CA23D8 /* Images.xcassets in Resources */,
+				6AD70B7F18F9E86E00CA23D8 /* dog.png in Resources */,
+				6AD70B8018F9E86E00CA23D8 /* turtle.png in Resources */,
 				6AD70B5918F9E7E600CA23D8 /* Spaceship.png in Resources */,
+				6AD70B7E18F9E86E00CA23D8 /* cat.png in Resources */,
 				6AD70B5118F9E7E600CA23D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
